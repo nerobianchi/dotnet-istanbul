@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrderLib.Tests", "OrderLib.Tests\OrderLib.Tests.csproj", "{8A6905B3-BB58-42C5-8B14-715C5C95FBE1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrderLib", "OrderLib\OrderLib.csproj", "{F7BA2F71-00D0-4798-876B-E07174251FB2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrderLib.IntegrationTests", "OrderLib.IntegrationTests\OrderLib.IntegrationTests.csproj", "{19750419-0D66-42D3-BD3D-91E21DA34B94}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8A6905B3-BB58-42C5-8B14-715C5C95FBE1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8A6905B3-BB58-42C5-8B14-715C5C95FBE1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8A6905B3-BB58-42C5-8B14-715C5C95FBE1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8A6905B3-BB58-42C5-8B14-715C5C95FBE1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F7BA2F71-00D0-4798-876B-E07174251FB2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F7BA2F71-00D0-4798-876B-E07174251FB2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F7BA2F71-00D0-4798-876B-E07174251FB2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F7BA2F71-00D0-4798-876B-E07174251FB2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{19750419-0D66-42D3-BD3D-91E21DA34B94}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{19750419-0D66-42D3-BD3D-91E21DA34B94}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{19750419-0D66-42D3-BD3D-91E21DA34B94}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{19750419-0D66-42D3-BD3D-91E21DA34B94}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
