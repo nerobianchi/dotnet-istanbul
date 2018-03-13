@@ -3,8 +3,8 @@ pipeline {
   stages {
     stage('build') {
       steps {
-        sh 'dotnet restore'
-        sh 'dotnet build'
+        sh '''docker run --rm -v /var/run/docker.sock:/var/run/docker.sock -v ~/dotnet-docker-samples:/repo -w /repo --name myapp-0001 microsoft/dotnet-buildtools-prereqs:image-builder-jessie-20171020090934 build --manifest manifest.json
+'''
       }
     }
     stage('test') {
